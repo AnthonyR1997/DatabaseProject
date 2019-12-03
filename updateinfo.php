@@ -48,7 +48,7 @@
                 $setpassword = $_GET['password'];
                 $userid=$_SESSION['userid'];
 
-                $sql_statement = "UPDATE customer SET CUST_FNAME = '$setFname', CUST_LNAME = '$setLname', CUST_EMAIL = '$setemail', CUST_PHONE = '$setphone', CUST_PASSWORD = '$setpassword' WHERE CUST_ID = 1;";
+                $sql_statement = "UPDATE customer SET CUST_FNAME = '$setFname', CUST_LNAME = '$setLname', CUST_EMAIL = '$setemail', CUST_PHONE = '$setphone', CUST_PASSWORD = '$setpassword' WHERE CUST_ID = $userid;";
 
                 if($connection){
                 mysqli_query($connection, $sql_statement);
