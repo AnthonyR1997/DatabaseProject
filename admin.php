@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="main">
-            <h2>Update Concert Information</h2>
+            <h2>Create Concert Information</h2>
             <form action="adminOutput.php">
                 Concert Name:<input type="text" name="concertname"><br><br>
                 Concert Date: <input type="date" name="concertdate"><br><br>
@@ -48,7 +48,7 @@
                 Venue Id: <input type="text" name="venid"><br><br>
                 Your Admin ID: <input type="text" name="adminid"><br><br>
                 Seat ID: <input type="text" name="seatsid"><br><br>
-                <button type="submit" class="search-or-add-button"> Update </button>
+                <button type="submit" class="search-or-add-button"> Create </button>
             </form>
             <br>
             <form action="adminDelete.php">
